@@ -1,0 +1,56 @@
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .formfeed {
+        width: 100%;
+        margin: 10px 15px;
+    }
+
+    .formimg {
+        width: 80%;
+    }
+
+    .aboutpg {
+        margin: 0px 15px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    .formfeed {
+        width: 80%;
+    }
+
+    .formimg {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .formfeed {
+        width: 40%;
+    }
+
+    .formimg {
+        width: 40%;
+    }
+}
+
+.paragraph {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.paragraph::first-letter {
+    font-size: 1.8em;
+}
