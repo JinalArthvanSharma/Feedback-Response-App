@@ -2,16 +2,6 @@
 This application is built with Python, Flask, OpenAI and Azure. It allows users to send the feedback and analyzes that sentiment, and then uses a LLM to
 generate appropriate responses based on the sentiment.
 
-## Screenshots 
-- Home Page
-![HomePage](/screenshot1.png)
-
-- Feedback Form Page
-![Feedback](/screenshot2.png)
-
-- Thank you Page
-![Feedback](/screenshot3.png)
-
 ## Installation
 
 To run the Feedback Form Flask App locally, follow these steps:
@@ -47,5 +37,14 @@ python3 run.py
 
 Access the app in your browser at `http://localhost:5000`.
 
-
 [Live app](https://feedbackexample.pythonanywhere.com/)
+
+## Screenshots 
+- Home Page
+![HomePage](/screenshot1.png)
+
+- Feedback Form Page
+![Feedback](/screenshot2.png)
+
+- Thank you Page
+![Feedback](/screenshot3.png)
