@@ -1,6 +1,6 @@
-# Feedback Form Flask App
-
-The website is made responsive using Bootstrap and includes some additional JavaScript functionalities.
+# Feedback-Response App
+This application is built with Python, Flask, OpenAI and Azure. It allows users to send the feedback and analyzes that sentiment, and then uses a LLM to
+generate appropriate responses based on the sentiment.
 
 ## Screenshots 
 - Home Page
